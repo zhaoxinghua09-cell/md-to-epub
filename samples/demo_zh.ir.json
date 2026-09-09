@@ -1,0 +1,48 @@
+{
+ "ir_version": 1,
+ "generator": "md-to-epub 1.0.0",
+ "meta": {
+  "title": "凡自治之物：LGD 三律速览",
+  "author": "诺声(Logos)@SynomosAI",
+  "language": "zh-CN",
+  "date": "2026-09-08",
+  "identifier": "urn:uuid:d5e29547-159c-436e-9051-dd8b4248cd43",
+  "css_variant": "zh"
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "凡自治之物：LGD 三律速览",
+   "anchor": "chap-001",
+   "sections": [
+    {
+     "level": 2,
+     "title": "一句话主张",
+     "anchor": "sec-1-1"
+    },
+    {
+     "level": 2,
+     "title": "三个词",
+     "anchor": "sec-1-2"
+    },
+    {
+     "level": 2,
+     "title": "快速对比",
+     "anchor": "sec-1-3"
+    },
+    {
+     "level": 2,
+     "title": "一段代码",
+     "anchor": "sec-1-4"
+    },
+    {
+     "level": 2,
+     "title": "引用一则",
+     "anchor": "sec-1-5"
+    }
+   ],
+   "html": "<blockquote>2026 年 9 月 · 内部演示稿（用于验证 md-to-epub 中文排版）</blockquote>\n<h2>一句话主张</h2>\n<p>有籍、有证、有门禁——凡自治之物，皆可问责。</p>\n<h2>三个词</h2>\n<ul>\n<li><strong>有籍</strong>：每个数字员工都有身份登记，能被点名\n</li></ul>\n<li><strong>有证</strong>：每个动作都留证据链，能被追溯\n<ul>\n<li><strong>有门禁</strong>：每次对外发布都过闸门，能被拦截\n</li></ul>\n<h2>快速对比</h2>\n<table>\n<thead><tr>\n<th>律</th>\n<th>回答的问题</th>\n<th>缺了会怎样</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>有籍</td>\n<td>这是谁干的？</td>\n<td>出了事找不到人</td>\n</tr>\n<tr>\n<td>有证</td>\n<td>拿什么证明？</td>\n<td>各说各话，无法复盘</td>\n</tr>\n<tr>\n<td>有门禁</td>\n<td>谁放行的？</td>\n<td>带病内容直接上线</td>\n</tr>\n</tbody>\n</table>\n<h2>一段代码</h2>\n<pre class=\"language-python\"><code>def gate_check(asset):\n    assert asset.license, &quot;无 LICENSE，拦截&quot;\n    assert asset.attestation, &quot;无认证声明，拦截&quot;\n    return &quot;PASS&quot;</code></pre>\n<h2>引用一则</h2>\n<blockquote>收敛优于复制：一个底座，模块注入，胜过十处各起炉灶。</blockquote>\n<hr/>\n<p><em>本演示稿由 md-to-epub 生成，用于验证中文排版、表格、代码块与列表渲染。</em></p>"
+  }
+ ],
+ "images": []
+}
